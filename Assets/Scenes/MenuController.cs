@@ -391,7 +391,11 @@ namespace ARLocation.MapboxRoutes.SampleProject
             {
                 var cameraPos = Camera.main.transform.position;
 
-                MapboxMapCamera.transform.eulerAngles = new Vector3(90, Camera.main.transform.localEulerAngles.y, 0);
+                var arLocationRootAngle = ARLocationManager.Instance.gameObject.transform.localEulerAngles.y;
+                var cameraAngle = Camera.main.transform.localEulerAngles.y;
+                var mapAngle = cameraAngle - arLocationRootAngle;
+
+                MapboxMapCamera.transform.eulerAngles = new Vector3(90, mapAngle, 0);
 
                 if ((cameraPos - lastCameraPos).magnitude < MinimapStepSize) {
                     return;
