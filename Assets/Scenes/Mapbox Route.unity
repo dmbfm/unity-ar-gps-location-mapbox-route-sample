@@ -660,7 +660,7 @@ MonoBehaviour:
   DirectionsFactory: {fileID: 0}
   MinimapLayer: 6
   MinimapLineMaterial: {fileID: 2100000, guid: 5a66f28d8726243dba9094b33505fec6, type: 2}
-  LineWidth: 2
+  BaseLineWidth: 2
   MinimapStepSize: 0.75
 --- !u!114 &266481004
 MonoBehaviour:
@@ -3292,7 +3292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LocationProviderSettings:
-    TimeBetweenUpdates: 2
+    TimeBetweenUpdates: 0
     MinDistanceBetweenUpdates: 0
     AccuracyRadius: 25
     MaxNumberOfUpdates: 0
