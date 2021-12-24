@@ -292,7 +292,7 @@ namespace ARLocation.MapboxRoutes.SampleProject
 
         private void OnRestartPress()
         {
-            Settings.MapboxRoute.RestartRoute();
+            Settings.MapboxRoute.ClosestTarget();
         }
 
         private void OnPrevPress()
