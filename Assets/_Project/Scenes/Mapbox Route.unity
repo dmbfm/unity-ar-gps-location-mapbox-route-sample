@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.4439403, g: 0.4931519, b: 0.5722083, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -844,7 +844,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Settings:
-    SignPostPrefab: {fileID: 2406714923471210871, guid: 9427d144b9f504ecaa05db95fe5a286a, type: 3}
+    SignpostPrefabs:
+    - {fileID: 2406714923471210871, guid: 154e5264001534d7999c9720b114562d, type: 3}
     PathRenderer: {fileID: 0}
     OnScreenIndicator: {fileID: 431329722}
     MapboxToken: pk.eyJ1IjoiZG1iZm0iLCJhIjoiY2tyYW9hdGMwNGt6dTJ2bzhieDg3NGJxNyJ9.qaQsMUbyu4iARFe0XB2SWg
@@ -874,16 +875,7 @@ MonoBehaviour:
     OnMapboxRouteLoadError:
       m_PersistentCalls:
         m_Calls: []
-  s:
-    LoadRouteError: 
-    SignPostInstances: []
-    StepsPlaceAtInstances: []
-    RouteSteps: []
-    RouteDistance: 0
-    RouteGeometry:
-      coordinates: []
-      type: 
-    CurrentTargetIndex: -1
+    DebugMode: 0
 --- !u!4 &431329719
 Transform:
   m_ObjectHideFlags: 0
