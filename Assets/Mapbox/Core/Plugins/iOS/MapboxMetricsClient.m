@@ -1,4 +1,5 @@
-#import <MapboxMobileEvents/MapboxMobileEvents.h>
+// #import <MapboxMobileEvents/MapboxMobileEvents.h>
+#import "MapboxMobileEvents/include/MapboxMobileEvents/MapboxMobileEvents.h"
 
 void initialize(const char* accessToken, const char* userAgentBase, const char* hostSDKVersion) {
     [[MMEEventsManager sharedManager] initializeWithAccessToken:[NSString stringWithUTF8String:accessToken] 
