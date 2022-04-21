@@ -3289,7 +3289,7 @@ MonoBehaviour:
     MinDistanceBetweenUpdates: 0
     AccuracyRadius: 25
     MaxNumberOfUpdates: 0
-  MockLocationData: {fileID: 11400000, guid: 990095499a0d48a4aa8cfa3778d3a0e5, type: 2}
+  MockLocationData: {fileID: 11400000, guid: 35d540154c8f5504c8dc9a4e2b1feb32, type: 2}
   MaxWaitTime: 200
   StartUpDelay: 0
   DebugMode: 0
