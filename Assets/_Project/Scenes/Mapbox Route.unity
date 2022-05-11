@@ -1850,8 +1850,7 @@ MonoBehaviour:
         buildingsWithUniqueIds: 1
         moveFeaturePositionTo: 0
         MeshModifiers: []
-        GoModifiers:
-        - {fileID: 11400000, guid: 0fa343cb73d1242e4ab7722b94f9f14d, type: 2}
+        GoModifiers: []
         presetFeatureType: 0
         _maskValue: 0
         selectedTypes: 
